@@ -36,7 +36,7 @@ public class Q6Q8 {
            public void test6() throws InterruptedException, AWTException {
             driver.get("https://www.tempmailaddress.com/");
             driver.findElement(By.xpath("//a[@class='wpcc-btn']")).click();
-            String text = driver.findElement(By.xpath("//span[contains(text(),'@iillii.org')]")).getText();
+            String text = driver.findElement(By.xpath("//span[contains(text(),'@andyes.net')]")).getText();
             System.out.println(text);
             driver.findElement(By.xpath("(//span[@class='glyphicon glyphicon-download-alt'])[2]")).click();
             Thread.sleep(5000);

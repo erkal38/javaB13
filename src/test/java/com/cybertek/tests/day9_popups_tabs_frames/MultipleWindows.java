@@ -36,9 +36,10 @@ public class MultipleWindows {
         for (String handle : windowHandles) {
             if(!handle.equals(windowHandle)){
                 driver.switchTo().window(handle);
-        }
+            }
         }
         System.out.println("title after switching "+driver.getTitle());
+
 
     }
     @Test
