@@ -4,13 +4,11 @@ import org.testng.annotations.*;
 
 public class BeforeAfterTests {
 
-
     @Test
     public void test1(){
         //Webdriver part
         System.out.println("This is my test 1");
        //close browser,quit
-
     }
     @Test
     public void test2(){
@@ -34,7 +32,8 @@ public class BeforeAfterTests {
 
      @BeforeClass
      public void setUpClass(){
-         System.out.println("--Before Class");
+
+        System.out.println("--Before Class");
      }
      @AfterClass
     public void afterClass(){

@@ -2,115 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b369c81-250c-40fd-9c61-441b03b6623b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/regression_runner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smoke_test_runner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smoke_test_runner_multi_env.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/CalendarEventsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/ContactsInfoPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/ContactsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/CreateCalendarEventsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/DashboardPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/PageVehicleCosts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/Homework/DataProviderProject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/Homework/SingletonConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/Homework/VerifyPointTableDataProvider2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/Homework/VyTrack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/Homework/VytrackDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/Homework/vytrackBasePageTestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_Properties/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_Properties/PropertiesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_Properties/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day15_StaleTest/Staletest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day16_pom/NegativeLoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day16_pom/PageSubtitleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day16_pom/PositiveLoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day16_pom/RepeatOptionsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day17_extent_reports/ExtentDemoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day17_extent_reports/NegativeLoginTestWithReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day18_review/verifyContactInfoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day19_ddf/DDFLoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day19_ddf/DDFWithDataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day19_ddf/ExcelUtilsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/BrowserUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/ConfigurationReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/ExcelUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Vytracktestdata.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/Vytracktestdata.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/pages/BasePage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/pages/CalendarEventsPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/pages/ContactsInfoPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/pages/ContactsPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/pages/CreateCalendarEventsPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/pages/DashboardPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/pages/LoginPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/pages/PageVehicleCosts.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/Homework/DataProviderProject.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/Homework/SingletonConfiguration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/Homework/VerifyPointTableDataProvider2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/Homework/VyTrack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/Homework/VytrackDriver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/Homework/vytrackBasePageTestBase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/TestBase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day14_Properties/LoginTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day14_Properties/PropertiesTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day14_Properties/Singleton.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day15_StaleTest/Staletest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day16_pom/NegativeLoginTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day16_pom/PageSubtitleTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day16_pom/PositiveLoginTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day16_pom/RepeatOptionsTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day17_extent_reports/ExtentDemoTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day17_extent_reports/NegativeLoginTestWithReport.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day18_review/verifyContactInfoTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day19_ddf/DDFLoginTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day19_ddf/DDFWithDataProvider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day19_ddf/ExcelUtilsDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/utilities/BrowserUtils$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/utilities/BrowserUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/utilities/ConfigurationReader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/utilities/Driver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/utilities/ExcelUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/contactDetailsTest20200524123910.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/contactDetailsTest20200526043415.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/loginTestDDF20200529073536.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/loginTestDDF20200529073823.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/loginTestDDF20200529074248.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/loginTestDDF20200529074304.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/loginTestDDF20200529074330.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/loginTestDDF20200529074356.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/loginTestDDF20200529074541.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/loginTestDDF20200529074559.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/loginTestDDF20200529075334.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/loginTestDDF20200529075348.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/loginTestDDF20200529075405.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/loginTestDDF20200529075644.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/loginTestWithDataP20200530024613.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/loginTestWithDataP20200530024653.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/wrongPasswordTest20200523020719.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/wrongPasswordTest20200523051007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/wrongPasswordTest20200527045048.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/wrongPasswordTest20200527045522.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/wrongPasswordTest20200527050211.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/wrongUserTest20200527045059.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/wrongUserTest20200527045534.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/wrongUserTest20200527050222.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng_runner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day7_types_of_elements/DisplayedElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day7_types_of_elements/DisplayedElement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/testVehicleCost20200601051010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/testVehicleCost20200601052114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/testVehicleCost20200601052313.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/testVehicleCost20200601052723.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/testVehicleCost20200601053920.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/testVehicleCost20200601054127.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/testVehicleCost20200601062336.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/wrongPasswordTest20200627041626.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EU2TestNGProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EU2TestNGProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/Homework/Q6Q8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/Homework/Q6Q8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day8_types_of_elements2/SelectClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day8_types_of_elements2/SelectClassTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day9_popups_tabs_frames/MultipleWindows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day9_popups_tabs_frames/MultipleWindows.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/Homework/Q6Q8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/Homework/Q6Q8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day8_types_of_elements2/SelectClassTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day8_types_of_elements2/SelectClassTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day9_popups_tabs_frames/MultipleWindows.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day9_popups_tabs_frames/MultipleWindows.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/FirstClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/FirstClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day17_extent_reports/NegativeLoginTestWithReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day17_extent_reports/NegativeLoginTestWithReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day1_intro/OpenBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day1_intro/OpenBrowser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day2_webdriver_basics/CloseAndQuit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day2_webdriver_basics/CloseAndQuit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day3_webelement_intro/verifyConfirmationMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day3_webelement_intro/verifyConfirmationMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day3_webelement_intro/verifyUrlNotChanged.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day3_webelement_intro/verifyUrlNotChanged.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day5_xpath/Xpath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day5_xpath/Xpath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day7_testng/BeforeAfterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day7_testng/BeforeAfterTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day7_testng/FirstTestNGTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day7_testng/FirstTestNGTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/WebDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/WebDriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/FirstClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/FirstClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day2_webdriver_basics/CloseAndQuit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day2_webdriver_basics/CloseAndQuit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day3_webelement_intro/verifyConfirmationMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day3_webelement_intro/verifyConfirmationMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day3_webelement_intro/verifyUrlNotChanged.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day3_webelement_intro/verifyUrlNotChanged.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day5_xpath/Xpath.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day5_xpath/Xpath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day7_testng/BeforeAfterTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day7_testng/BeforeAfterTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day7_testng/FirstTestNGTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day7_testng/FirstTestNGTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/utilities/BrowserUtils$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/utilities/BrowserUtils$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/utilities/BrowserUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/utilities/BrowserUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/utilities/WebDriverFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/utilities/WebDriverFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,35 +93,17 @@
       <recent name="C:\Users\Ergün\IdeaProjects\EU2TestNGProject\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DataProviderProject.testVehicleCost">
-    <configuration name="DataProviderProject.testVehicleCost" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/Ergün/IdeaProjects/EU2TestNGProject/testng.xml">
+    <configuration name="BeforeAfterTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU2TestNGProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.Homework.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day7_testng.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.Homework" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.Homework.DataProviderProject" />
-      <option name="METHOD_NAME" value="testVehicleCost" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MultipleWindows" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EU2TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day9_popups_tabs_frames.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day9_popups_tabs_frames" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day9_popups_tabs_frames.MultipleWindows" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day7_testng" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day7_testng.BeforeAfterTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -203,17 +111,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultipleWindows.switchWindowsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Ergün/IdeaProjects/EU2TestNGProject/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU2TestNGProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DisplayedElement.Test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU2TestNGProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day9_popups_tabs_frames.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day7_types_of_elements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day9_popups_tabs_frames" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day9_popups_tabs_frames.MultipleWindows" />
-      <option name="METHOD_NAME" value="switchWindowsTest" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day7_types_of_elements" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day7_types_of_elements.DisplayedElement" />
+      <option name="METHOD_NAME" value="Test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -221,17 +139,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NoSelectDropDown.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNGAssertionsDemo.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU2TestNGProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day8_types_of_elements2.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day7_testng.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day8_types_of_elements2" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day8_types_of_elements2.NoSelectDropDown" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day7_testng" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day7_testng.TestNGAssertionsDemo" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -239,16 +157,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectClassTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNGAssertionsDemo.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU2TestNGProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day8_types_of_elements2.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day7_testng.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day8_types_of_elements2" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day8_types_of_elements2.SelectClassTest" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day7_testng" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day7_testng.TestNGAssertionsDemo" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -259,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DataProviderProject.testVehicleCost" />
-        <item itemvalue="TestNG.MultipleWindows.switchWindowsTest" />
-        <item itemvalue="TestNG.MultipleWindows" />
-        <item itemvalue="TestNG.SelectClassTest.test1" />
-        <item itemvalue="TestNG.NoSelectDropDown.test1" />
+        <item itemvalue="TestNG.C:/Users/Ergün/IdeaProjects/EU2TestNGProject/testng.xml" />
+        <item itemvalue="TestNG.DisplayedElement.Test1" />
+        <item itemvalue="TestNG.TestNGAssertionsDemo.test" />
+        <item itemvalue="TestNG.TestNGAssertionsDemo.test1" />
+        <item itemvalue="TestNG.BeforeAfterTests" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588885369820</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="TestNGLearning">
+      <created>1591038727793</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591038727793</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -313,15 +238,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="TestNGLearning" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="26" key="#Plugins" timestamp="1590938545049">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="275" y="26" key="#Plugins/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1590938545049" />
-    <state x="-1091" y="26" key="#Project_Structure" timestamp="1590353769527">
+    <state x="-1150" y="2" key="#Plugins" timestamp="1593105484766">
       <screen x="-1366" y="0" width="1366" height="728" />
     </state>
+    <state x="-1150" y="2" key="#Plugins/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1593105484766" />
+    <state x="275" y="26" width="958" height="676" key="#Project_Structure" timestamp="1592354177400">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
     <state x="-1091" y="26" key="#Project_Structure/0.0.1366.728/-1366.0.1366.728@-1366.0.1366.728" timestamp="1590353769527" />
-    <state x="275" y="26" key="#Project_Structure/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1590237716946" />
+    <state x="275" y="26" width="958" height="676" key="#Project_Structure/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1592354177400" />
     <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590499927436">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -351,10 +276,10 @@
     </state>
     <state x="445" y="253" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1589125250934" />
     <state x="445" y="253" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1585855282877" />
-    <state x="316" y="0" key="CommitChangelistDialog2" timestamp="1591038691250">
+    <state x="316" y="0" key="CommitChangelistDialog2" timestamp="1591038726029">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="316" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1591038691250" />
+    <state x="316" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1591038726029" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1590849055786">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -368,29 +293,29 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="497" y="243" key="Github.CreatePullRequestDialog/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1590863332338" />
-    <state width="1322" height="314" key="GridCell.Tab.0.bottom" timestamp="1591025603502">
+    <state width="1322" height="162" key="GridCell.Tab.0.bottom" timestamp="1593220597858">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="314" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591016776587" />
-    <state width="1322" height="314" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1591025603502" />
+    <state width="1322" height="162" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1593220597858" />
     <state width="627" height="335" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585856173515" />
-    <state width="1322" height="314" key="GridCell.Tab.0.center" timestamp="1591025603502">
+    <state width="1322" height="162" key="GridCell.Tab.0.center" timestamp="1593220597858">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="314" key="GridCell.Tab.0.center/0.0.1366.728/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591016776587" />
-    <state width="1322" height="314" key="GridCell.Tab.0.center/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1591025603502" />
+    <state width="1322" height="162" key="GridCell.Tab.0.center/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1593220597858" />
     <state width="627" height="335" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585856173515" />
-    <state width="1322" height="314" key="GridCell.Tab.0.left" timestamp="1591025603502">
+    <state width="1322" height="162" key="GridCell.Tab.0.left" timestamp="1593220597858">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="314" key="GridCell.Tab.0.left/0.0.1366.728/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591016776586" />
-    <state width="1322" height="314" key="GridCell.Tab.0.left/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1591025603502" />
+    <state width="1322" height="162" key="GridCell.Tab.0.left/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1593220597858" />
     <state width="627" height="335" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585856173515" />
-    <state width="1322" height="314" key="GridCell.Tab.0.right" timestamp="1591025603502">
+    <state width="1322" height="162" key="GridCell.Tab.0.right" timestamp="1593220597858">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="314" key="GridCell.Tab.0.right/0.0.1366.728/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591016776587" />
-    <state width="1322" height="314" key="GridCell.Tab.0.right/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1591025603502" />
+    <state width="1322" height="162" key="GridCell.Tab.0.right/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1593220597858" />
     <state width="627" height="335" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585856173515" />
     <state x="0" y="0" key="SettingsEditor" timestamp="1590499812028">
       <screen x="0" y="0" width="1366" height="728" />
@@ -438,10 +363,11 @@
     </state>
     <state x="6" y="158" key="run.anything.popup/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1589937800049" />
     <state x="6" y="158" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1585514903415" />
-    <state x="6" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1591008672872">
+    <state x="6" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1593105415535">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="6" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1591008672872" />
+    <state x="-1360" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1366.0.1366.728@-1366.0.1366.728" timestamp="1593105154590" />
+    <state x="6" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1593105415535" />
     <state x="6" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1585407901514" />
   </component>
 </project>

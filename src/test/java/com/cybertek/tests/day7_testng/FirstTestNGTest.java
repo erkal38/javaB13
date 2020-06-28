@@ -9,9 +9,10 @@ public class FirstTestNGTest {
         System.out.println("First Test");
 
     }
-@Test
+    @Test
     public void test2(){
-    System.out.println("Second Test");
+
+        System.out.println("Second Test");
 }
 
 }

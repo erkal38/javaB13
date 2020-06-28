@@ -10,7 +10,7 @@ public class CloseAndQuit {
         WebDriver driver=new ChromeDriver();
         driver.get("http://practice.cybertekschool.com/open_new_tab");
         Thread.sleep(5000);
-        driver.quit();
+        driver.close();
 
 
     }

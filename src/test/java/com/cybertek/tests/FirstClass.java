@@ -14,8 +14,8 @@ public class FirstClass {
         System.out.println(faker.finance().creditCard(CreditCardType.AMERICAN_EXPRESS));
         faker.overwatch().hero();
         System.out.println("Hello World");
-
-
+        boolean leon = faker.animal().name().contains("leon");
+        System.out.println(faker.animal().name());
 
 
     }
