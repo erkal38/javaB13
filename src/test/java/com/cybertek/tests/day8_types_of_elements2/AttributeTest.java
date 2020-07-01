@@ -16,8 +16,12 @@ public class AttributeTest {
         driver.get("http://practice.cybertekschool.com/radio_buttons");
         WebElement radioButton = driver.findElement(By.id("blue"));
         String outerHTML = radioButton.getAttribute("outerHTML");
-        System.out.println(outerHTML);
+        String[] str=outerHTML.split(" ");
+        System.out.println(Arrays.toString(str));
+        System.out.println(str[2]);
+        System.out.println();
+        System.out.println(radioButton.getAttribute("checked"));
 
-        }
+    }
     }
 

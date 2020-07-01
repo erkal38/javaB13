@@ -21,9 +21,6 @@ public class SelectClassTest {
         System.out.println("Options size: " + options.size());
         for (WebElement option : options) {
             System.out.println(option.getText());
-
-
-
         }
     }
 
@@ -39,26 +36,8 @@ public class SelectClassTest {
         actualOption = stateDropdown.getFirstSelectedOption().getText();
         Assert.assertEquals(actualOption, expectedOption, "verify first selection");
         Thread.sleep(2000);
+        stateDropdown.selectByVisibleText("Texas");
 
-        stateDropdown.selectByVisibleText("Virginia");
-        expectedOption="Virginia";
-        actualOption=stateDropdown.getFirstSelectedOption().getText();
-        Assert.assertEquals(actualOption,expectedOption);
-
-        Thread.sleep(2000);
-
-        stateDropdown.selectByIndex(51);
-        expectedOption="Wyoming";
-        actualOption=stateDropdown.getFirstSelectedOption().getText();
-        Assert.assertEquals(actualOption,expectedOption);
-        Thread.sleep(2000);
-
-        stateDropdown.selectByValue("DC");
-        expectedOption="District of Columbia";
-        actualOption=stateDropdown.getFirstSelectedOption().getText();
-        Assert.assertEquals(actualOption,expectedOption);
-        Thread.sleep(2000);
-        driver.quit();
 
     }
 }

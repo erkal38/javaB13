@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b369c81-250c-40fd-9c61-441b03b6623b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day11_file_upload/FileUploadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day8_types_of_elements2/DisplayDemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day8_types_of_elements2/ListOfElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_sync/ExplicitWaitExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_sync/ExplicitWaitExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day8_types_of_elements2/AttributeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day8_types_of_elements2/AttributeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day8_types_of_elements2/NoSelectDropDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day8_types_of_elements2/NoSelectDropDown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day8_types_of_elements2/SelectClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day8_types_of_elements2/SelectClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day9_popups_tabs_frames/iframes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day9_popups_tabs_frames/iframes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day10_sync/ExplicitWaitExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day10_sync/ExplicitWaitExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day17_extent_reports/NegativeLoginTestWithReport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day17_extent_reports/NegativeLoginTestWithReport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day8_types_of_elements2/AttributeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day8_types_of_elements2/AttributeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day8_types_of_elements2/NoSelectDropDown.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day8_types_of_elements2/NoSelectDropDown.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day8_types_of_elements2/SelectClassTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day8_types_of_elements2/SelectClassTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day9_popups_tabs_frames/iframes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day9_popups_tabs_frames/iframes.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,17 +73,17 @@
       <recent name="C:\Users\Ergün\IdeaProjects\EU2TestNGProject\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Ergün/IdeaProjects/EU2TestNGProject/testng.xml">
-    <configuration name="BeforeAfterTests" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.FileUploadTest">
+    <configuration name="ExplicitWaitExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU2TestNGProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day7_testng.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day10_sync.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day7_testng" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day7_testng.BeforeAfterTests" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day10_sync" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day10_sync.ExplicitWaitExample" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -77,27 +91,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/Ergün/IdeaProjects/EU2TestNGProject/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FileUploadTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU2TestNGProject" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day11_file_upload.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day11_file_upload" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day11_file_upload.FileUploadTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DisplayedElement.Test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MultipleWindows.switchWindowsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU2TestNGProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day7_types_of_elements.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day9_popups_tabs_frames.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day7_types_of_elements" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day7_types_of_elements.DisplayedElement" />
-      <option name="METHOD_NAME" value="Test1" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day9_popups_tabs_frames" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day9_popups_tabs_frames.MultipleWindows" />
+      <option name="METHOD_NAME" value="switchWindowsTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -105,35 +126,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNGAssertionsDemo.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="iframes.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU2TestNGProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day7_testng.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day9_popups_tabs_frames.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day7_testng" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day7_testng.TestNGAssertionsDemo" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestNGAssertionsDemo.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EU2TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day7_testng.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day7_testng" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day7_testng.TestNGAssertionsDemo" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day9_popups_tabs_frames" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day9_popups_tabs_frames.iframes" />
       <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="iframes.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU2TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day9_popups_tabs_frames.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day9_popups_tabs_frames" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day9_popups_tabs_frames.iframes" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -143,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/Ergün/IdeaProjects/EU2TestNGProject/testng.xml" />
-        <item itemvalue="TestNG.DisplayedElement.Test1" />
-        <item itemvalue="TestNG.TestNGAssertionsDemo.test" />
-        <item itemvalue="TestNG.TestNGAssertionsDemo.test1" />
-        <item itemvalue="TestNG.BeforeAfterTests" />
+        <item itemvalue="TestNG.FileUploadTest" />
+        <item itemvalue="TestNG.ExplicitWaitExample" />
+        <item itemvalue="TestNG.iframes.test2" />
+        <item itemvalue="TestNG.iframes.test1" />
+        <item itemvalue="TestNG.MultipleWindows.switchWindowsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -259,30 +280,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="497" y="243" key="Github.CreatePullRequestDialog/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1590863332338" />
-    <state width="1322" height="162" key="GridCell.Tab.0.bottom" timestamp="1593220597858">
+    <state width="1322" height="307" key="GridCell.Tab.0.bottom" timestamp="1593606911980">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="314" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591016776587" />
-    <state width="1322" height="162" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1593220597858" />
-    <state width="627" height="335" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585856173515" />
-    <state width="1322" height="162" key="GridCell.Tab.0.center" timestamp="1593220597858">
+    <state width="1322" height="277" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1593520592262" />
+    <state width="1322" height="307" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593606911980" />
+    <state width="1322" height="307" key="GridCell.Tab.0.center" timestamp="1593606911979">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="314" key="GridCell.Tab.0.center/0.0.1366.728/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591016776587" />
-    <state width="1322" height="162" key="GridCell.Tab.0.center/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1593220597858" />
-    <state width="627" height="335" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585856173515" />
-    <state width="1322" height="162" key="GridCell.Tab.0.left" timestamp="1593220597858">
+    <state width="1322" height="277" key="GridCell.Tab.0.center/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1593520592262" />
+    <state width="1322" height="307" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593606911979" />
+    <state width="1322" height="307" key="GridCell.Tab.0.left" timestamp="1593606911979">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="314" key="GridCell.Tab.0.left/0.0.1366.728/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591016776586" />
-    <state width="1322" height="162" key="GridCell.Tab.0.left/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1593220597858" />
-    <state width="627" height="335" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585856173515" />
-    <state width="1322" height="162" key="GridCell.Tab.0.right" timestamp="1593220597858">
+    <state width="1322" height="277" key="GridCell.Tab.0.left/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1593520592262" />
+    <state width="1322" height="307" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593606911979" />
+    <state width="1322" height="307" key="GridCell.Tab.0.right" timestamp="1593606911980">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="314" key="GridCell.Tab.0.right/0.0.1366.728/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591016776587" />
-    <state width="1322" height="162" key="GridCell.Tab.0.right/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1593220597858" />
-    <state width="627" height="335" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585856173515" />
+    <state width="1322" height="277" key="GridCell.Tab.0.right/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1593520592262" />
+    <state width="1322" height="307" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593606911980" />
     <state x="0" y="0" key="SettingsEditor" timestamp="1590499812028">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

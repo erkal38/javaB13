@@ -34,10 +34,9 @@ public class ExplicitWaitExample {
         driver.get("http://practice.cybertekschool.com/dynamic_loading/1");
         driver.findElement(By.tagName("button")).click();
         WebElement username = driver.findElement(By.id("username"));
-        WebDriverWait wait=new WebDriverWait(driver,2);
+        WebDriverWait wait=new WebDriverWait(driver,5);
         wait.until(ExpectedConditions.visibilityOf(username));
         username.sendKeys("mikesmith");
-
 
     }
 }
