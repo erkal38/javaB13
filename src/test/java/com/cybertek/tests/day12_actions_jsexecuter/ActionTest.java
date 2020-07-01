@@ -50,7 +50,7 @@ public class ActionTest {
             driver.findElement(By.xpath("//button[@title='Accept Cookies']")).click();
             Thread.sleep(2000);
             actions.dragAndDrop(source,target).perform();
-        }
+}
         @Test
          public void DragAndDropTest() throws InterruptedException {
             driver.get("https://demos.telerik.com/kendo-ui/dragdrop/index");

@@ -38,5 +38,25 @@ public class JavaScript {
                 jse.executeScript("window.scrollBy(0,250)");
 
             }
-    }
+            for (int i=0;i<10;i++) {
+                Thread.sleep(1000);
+                jse.executeScript("window.scrollBy(0,-250)");
+
+            }
+        }
+         @Test
+         public void clickwithJs(){
+            driver.get("http://practice.cybertekschool.com/dropdown");
+             WebElement dropdownlink = driver.findElement(By.linkText("Dropdown"));
+             JavascriptExecutor jse = (JavascriptExecutor) driver;
+             jse.executeScript("argument[0].click;",dropdownlink);
+         }
+         @Test
+    public void type(){
+            driver.get("http://practice.cybertekschool.com/dynamic_controls");
+             WebElement inputbox = driver.findElement(By.cssSelector("#input-example>input"));
+             String str = "Hello this iBox";
+             JavascriptExecutor jse = (JavascriptExecutor) this.driver;
+             jse.executeScript("arguments[0].setAttribute('value', '" + str +"')",inputbox);
+         }
 }
