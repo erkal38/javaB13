@@ -16,13 +16,11 @@ public class NoSelectDropDown {
         driver.get("http://practice.cybertekschool.com/dropdown");
         WebElement dropdownelement = driver.findElement(By.id("dropdownMenuLink"));
         dropdownelement.click();
-        List<WebElement> elements = driver.findElements(By.className("dropdown-item"));
-        for (WebElement element : elements) {
+        List<WebElement> dropdownelements = driver.findElements(By.className("dropdown-item"));
+        for (WebElement element : dropdownelements) {
             System.out.println(element.getText());
         }
-            elements.get(2).click();
-
-
+        dropdownelements.get(2).click();
 
 
     }
