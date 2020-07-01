@@ -25,6 +25,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
@@ -161,10 +166,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.HoverOverTest.test1" />
-        <item itemvalue="TestNG.JavaScript.testScroll" />
         <item itemvalue="TestNG.JavaScript.type" />
+        <item itemvalue="TestNG.JavaScript.testScroll" />
         <item itemvalue="TestNG.JavaScript.clickwithJs" />
+        <item itemvalue="TestNG.HoverOverTest.test1" />
         <item itemvalue="TestNG.ActionTest.hovertest1" />
       </list>
     </recent_temporary>
@@ -324,10 +329,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="242" height="198" key="ShowFilterAction_Filter_Popup/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1587984326404" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1593607132903">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1593642305782">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1590863318966" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1593642305782" />
     <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1593607132903" />
     <state x="13" y="112" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1590849055786">
       <screen x="0" y="0" width="1366" height="728" />
