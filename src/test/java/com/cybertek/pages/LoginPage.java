@@ -1,12 +1,13 @@
 package com.cybertek.pages;
 
+import com.cybertek.tests.TestBase;
 import com.cybertek.utilities.ConfigurationReader;
 import com.cybertek.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage {
+public class LoginPage extends TestBase {
 
     public LoginPage(){
 

@@ -14,10 +14,10 @@ public class PageSubtitleTest extends TestBase {
         new LoginPage().loginAsDriver();
         BrowserUtils.waitFor(5);
         DashboardPage dashboardPage=new DashboardPage();
-        String expected="Quick Launchpad";
+        String expected="Dashboard";
         String actual=dashboardPage.getPageSubTitle();
         Assert.assertEquals(actual,expected,"verify subtitles");
-        navigateToModule("Activities","Calendar Events");
+        dashboardPage.navigateToModule("Activities","Calendar Events");
         BrowserUtils.waitFor(3);
         Assert.assertEquals(new CalendarEventsPage().getPageSubTitle(),"Calendar Events","verify subtitles");
     }

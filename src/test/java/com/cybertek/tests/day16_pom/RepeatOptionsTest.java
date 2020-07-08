@@ -2,6 +2,7 @@ package com.cybertek.tests.day16_pom;
 
 import com.cybertek.pages.CalendarEventsPage;
 import com.cybertek.pages.CreateCalendarEventsPage;
+import com.cybertek.pages.DashboardPage;
 import com.cybertek.pages.LoginPage;
 import com.cybertek.tests.TestBase;
 import com.cybertek.utilities.BrowserUtils;
@@ -17,16 +18,17 @@ import java.util.List;
 public class RepeatOptionsTest extends TestBase {
     @Test
     public void test(){
-        new LoginPage().loginAsDriver();
-        navigateToModule("Activities","Calendar Events");
-        BrowserUtils.waitFor(5);
+       LoginPage loginPage=new LoginPage();
+       loginPage.loginAsDriver();
+        DashboardPage dashboardPage=new DashboardPage();
+        dashboardPage.navigateToModule("Activities","Calendar Events");
         CalendarEventsPage calendarEventsPage=new CalendarEventsPage();
+        calendarEventsPage.waitUntilLoaderScreenDisappear();
         calendarEventsPage.createCalendarEvent.click();
         CreateCalendarEventsPage createCalendarEventsPage=new CreateCalendarEventsPage();
         createCalendarEventsPage.repeat.click();
         Assert.assertTrue(createCalendarEventsPage.days.isSelected(),"verify is checked");
         Assert.assertFalse(createCalendarEventsPage.weekday.isSelected(),"verify is NOT selected");
-
     }
     @Test
     public void test2(){
@@ -34,18 +36,17 @@ public class RepeatOptionsTest extends TestBase {
         navigateToModule("Activities","Calendar Events");
         BrowserUtils.waitFor(5);
         CalendarEventsPage calendarEventsPage=new CalendarEventsPage();
+        calendarEventsPage.waitUntilLoaderScreenDisappear();
         calendarEventsPage.createCalendarEvent.click();
         CreateCalendarEventsPage createCalendarEventsPage=new CreateCalendarEventsPage();
+        BrowserUtils.waitFor(5);
         createCalendarEventsPage.repeat.click();
         Select repeatOptionsList = createCalendarEventsPage.repeatOptionsList();
-        List<String> expectedList= Arrays.asList("Daily","Weekly","Monthly","Yearly");
-        List<WebElement> actualOptions = repeatOptionsList.getOptions();
-        List<String> actualList=new ArrayList<>();
-        for (WebElement actualOption : actualOptions) {
-            actualList.add(actualOption.getText());
-        }
-        List<String> elementsText = BrowserUtils.getElementsText(actualOptions);
-        Assert.assertEquals(actualList,expectedList,"verify is OK");
-
+        List<String>expectedList=Arrays.asList("Daily","Weekly","Monthly","Yearly");
+        List<WebElement> options = repeatOptionsList.getOptions();
+        List<String> actualList = BrowserUtils.getElementsText(options);
+        System.out.println(actualList);
+        System.out.println(expectedList);
+        Assert.assertEquals(actualList,expectedList,"verify is Ok");
     }
 }

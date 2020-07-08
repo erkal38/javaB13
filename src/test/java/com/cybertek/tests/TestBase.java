@@ -40,20 +40,14 @@ public class TestBase extends BasePage {
    }
 
     @BeforeMethod
-    @Parameters("env")
-    public void setupMethod(@Optional String env) {
-        if(env==null){
-            url=ConfigurationReader.get("url");
-        }else{
-            url=ConfigurationReader.get(env);
-        }
-        System.out.println("env:"+env);
+    public void setupMethod() {
         driver = Driver.get();
+        driver.get(ConfigurationReader.get("url"));
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         actions=new Actions(driver);
         wait=new WebDriverWait(driver,10);
-        driver.get(ConfigurationReader.get("url"));
+
     }
 
     @AfterMethod

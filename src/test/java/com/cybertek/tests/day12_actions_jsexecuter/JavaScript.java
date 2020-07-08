@@ -1,5 +1,6 @@
 package com.cybertek.tests.day12_actions_jsexecuter;
 
+import com.cybertek.utilities.BrowserUtils;
 import com.cybertek.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -24,7 +25,7 @@ public class JavaScript {
         @AfterMethod
         public void afterMethod() throws InterruptedException {
             Thread.sleep(3000);
-            driver.quit();
+            //driver.quit();
         }
         @Test
         public void testScroll() throws InterruptedException {

@@ -2,11 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b369c81-250c-40fd-9c61-441b03b6623b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day11_file_upload/FileProjectPath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day11_file_upload/FileUploadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day11_file_upload/FileUploadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day12_actions_jsexecuter/ActionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day12_actions_jsexecuter/ActionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/DashboardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day12_actions_jsexecuter/JavaScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day12_actions_jsexecuter/JavaScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day13_WebTablesExamples/Example1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day13_WebTablesExamples/Example1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_Properties/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_Properties/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_Properties/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_Properties/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day16_pom/PageSubtitleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day16_pom/PageSubtitleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day16_pom/RepeatOptionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day16_pom/RepeatOptionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day9_popups_tabs_frames/iframes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day9_popups_tabs_frames/iframes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/pages/DashboardPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/pages/DashboardPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day12_actions_jsexecuter/JavaScript.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day12_actions_jsexecuter/JavaScript.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day13_WebTablesExamples/Example1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day13_WebTablesExamples/Example1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day14_Properties/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day14_Properties/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day14_Properties/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day14_Properties/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day16_pom/PageSubtitleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day16_pom/PageSubtitleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day16_pom/RepeatOptionsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day16_pom/RepeatOptionsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day9_popups_tabs_frames/iframes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day9_popups_tabs_frames/iframes.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,25 +82,25 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Ergün\IdeaProjects\EU2TestNGProject\src\test\resources" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Ergün\IdeaProjects\EU2TestNGProject\src\test\resources" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ergün\IdeaProjects\EU2TestNGProject\src\test\resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.HoverOverTest.test1">
-    <configuration name="ActionTest.hovertest1" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.RepeatOptionsTest.test2">
+    <configuration name="Example1.getASingleCell" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU2TestNGProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day12_actions_jsexecuter.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day13_WebTablesExamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day12_actions_jsexecuter" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day12_actions_jsexecuter.ActionTest" />
-      <option name="METHOD_NAME" value="hovertest1" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_WebTablesExamples" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_WebTablesExamples.Example1" />
+      <option name="METHOD_NAME" value="getASingleCell" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -92,16 +108,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HoverOverTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Example1.getAllCell" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU2TestNGProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day12_actions_jsexecuter.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day13_WebTablesExamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day12_actions_jsexecuter" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day12_actions_jsexecuter.HoverOverTest" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_WebTablesExamples" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_WebTablesExamples.Example1" />
+      <option name="METHOD_NAME" value="getAllCell" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Example1.getRowColumnCell" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU2TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day13_WebTablesExamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_WebTablesExamples" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_WebTablesExamples.Example1" />
+      <option name="METHOD_NAME" value="getRowColumnCell" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExplicitWaitExample.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU2TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day10_sync.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day10_sync" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day10_sync.ExplicitWaitExample" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -110,53 +162,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaScript.clickwithJs" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RepeatOptionsTest.test2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU2TestNGProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day12_actions_jsexecuter.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day16_pom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day12_actions_jsexecuter" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day12_actions_jsexecuter.JavaScript" />
-      <option name="METHOD_NAME" value="clickwithJs" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaScript.testScroll" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EU2TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day12_actions_jsexecuter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day12_actions_jsexecuter" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day12_actions_jsexecuter.JavaScript" />
-      <option name="METHOD_NAME" value="testScroll" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaScript.type" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EU2TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day12_actions_jsexecuter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day12_actions_jsexecuter" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day12_actions_jsexecuter.JavaScript" />
-      <option name="METHOD_NAME" value="type" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day16_pom" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day16_pom.RepeatOptionsTest" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -166,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.JavaScript.type" />
-        <item itemvalue="TestNG.JavaScript.testScroll" />
-        <item itemvalue="TestNG.JavaScript.clickwithJs" />
-        <item itemvalue="TestNG.HoverOverTest.test1" />
-        <item itemvalue="TestNG.ActionTest.hovertest1" />
+        <item itemvalue="TestNG.RepeatOptionsTest.test2" />
+        <item itemvalue="TestNG.ExplicitWaitExample.test1" />
+        <item itemvalue="TestNG.Example1.getRowColumnCell" />
+        <item itemvalue="TestNG.Example1.getAllCell" />
+        <item itemvalue="TestNG.Example1.getASingleCell" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593607113345</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="TestNGLearning">
+      <created>1593642332519</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1593642332519</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -251,18 +274,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1589676726961" />
-    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1590842976751">
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1594169536185">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1590842976751" />
-    <state x="291" y="294" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1589762735299">
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1594169536185" />
+    <state x="291" y="294" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1593698631859">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="291" y="294" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1589762735299" />
-    <state x="482" y="233" width="470" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1590858958400">
+    <state x="291" y="294" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1593698631859" />
+    <state x="482" y="233" width="473" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1593657214977">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="482" y="233" width="470" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1590858958400" />
+    <state x="482" y="233" width="473" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1593657214977" />
     <state x="363" y="54" key="#com.intellij.unscramble.UnscrambleDialog" timestamp="1587989621947">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -272,10 +298,11 @@
     </state>
     <state x="445" y="253" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1589125250934" />
     <state x="445" y="253" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1585855282877" />
-    <state x="316" y="0" key="CommitChangelistDialog2" timestamp="1593607111991">
+    <state x="316" y="0" key="CommitChangelistDialog2" timestamp="1593642332066">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="316" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1591038726029" />
+    <state x="316" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1593642332066" />
     <state x="316" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1593607111991" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1590849055786">
       <screen x="0" y="0" width="1366" height="728" />
@@ -285,64 +312,62 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="122" y="109" key="FileChooserDialogImpl/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1590499012834" />
-    <state x="122" y="109" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585490156928" />
+    <state x="509" y="266" key="Github.CreateGistDialog" timestamp="1593859026494">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="509" y="266" key="Github.CreateGistDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1593859026494" />
     <state x="497" y="243" key="Github.CreatePullRequestDialog" timestamp="1593607168427">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="497" y="243" key="Github.CreatePullRequestDialog/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1590863332338" />
     <state x="497" y="243" key="Github.CreatePullRequestDialog/0.0.1366.728@0.0.1366.728" timestamp="1593607168427" />
-    <state width="1322" height="236" key="GridCell.Tab.0.bottom" timestamp="1593641795947">
+    <state width="1322" height="236" key="GridCell.Tab.0.bottom" timestamp="1594170421269">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="314" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591016776587" />
     <state width="1322" height="277" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1593520592262" />
-    <state width="1322" height="236" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1593641795947" />
+    <state width="1322" height="236" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1594170421269" />
     <state width="1322" height="307" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593613190090" />
-    <state width="1322" height="236" key="GridCell.Tab.0.center" timestamp="1593641795947">
+    <state width="1322" height="236" key="GridCell.Tab.0.center" timestamp="1594170421269">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="314" key="GridCell.Tab.0.center/0.0.1366.728/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591016776587" />
     <state width="1322" height="277" key="GridCell.Tab.0.center/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1593520592262" />
-    <state width="1322" height="236" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1593641795947" />
+    <state width="1322" height="236" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1594170421269" />
     <state width="1322" height="307" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593613190090" />
-    <state width="1322" height="236" key="GridCell.Tab.0.left" timestamp="1593641795947">
+    <state width="1322" height="236" key="GridCell.Tab.0.left" timestamp="1594170421269">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="314" key="GridCell.Tab.0.left/0.0.1366.728/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591016776586" />
     <state width="1322" height="277" key="GridCell.Tab.0.left/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1593520592262" />
-    <state width="1322" height="236" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1593641795947" />
+    <state width="1322" height="236" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1594170421269" />
     <state width="1322" height="307" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593613190090" />
-    <state width="1322" height="236" key="GridCell.Tab.0.right" timestamp="1593641795947">
+    <state width="1322" height="236" key="GridCell.Tab.0.right" timestamp="1594170421269">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="314" key="GridCell.Tab.0.right/0.0.1366.728/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591016776587" />
     <state width="1322" height="277" key="GridCell.Tab.0.right/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1593520592262" />
-    <state width="1322" height="236" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1593641795947" />
+    <state width="1322" height="236" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1594170421269" />
     <state width="1322" height="307" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593613190090" />
     <state x="0" y="0" key="SettingsEditor" timestamp="1590499812028">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-1366" y="0" key="SettingsEditor/0.0.1366.728/-1366.0.1366.728@-1366.0.1366.728" timestamp="1589837644035" />
     <state x="0" y="0" key="SettingsEditor/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1590499812028" />
-    <state x="0" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585407910357" />
     <state width="242" height="198" key="ShowFilterAction_Filter_Popup" timestamp="1587984326404">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="242" height="198" key="ShowFilterAction_Filter_Popup/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1587984326404" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1593642305782">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1593642339752">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1590863318966" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1593642305782" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1593642339752" />
     <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1593607132903" />
     <state x="13" y="112" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1590849055786">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="13" y="112" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1590849055786" />
-    <state x="390" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1585361978436">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="390" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585361978436" />
     <state x="-872" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589373596765">
       <screen x="-1366" y="0" width="1366" height="728" />
     </state>
@@ -367,12 +392,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="6" y="158" key="run.anything.popup/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1589937800049" />
-    <state x="6" y="158" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1585514903415" />
-    <state x="6" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1593105415535">
+    <state x="6" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1593703182619">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-1360" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1366.0.1366.728@-1366.0.1366.728" timestamp="1593105154590" />
     <state x="6" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1593105415535" />
-    <state x="6" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1585407901514" />
+    <state x="6" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1593703182619" />
   </component>
 </project>

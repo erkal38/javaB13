@@ -4,6 +4,7 @@ import com.cybertek.tests.TestBase;
 import com.cybertek.utilities.ConfigurationReader;
 import com.cybertek.utilities.Driver;
 import com.cybertek.utilities.WebDriverFactory;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -13,12 +14,13 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class LoginTest extends TestBase {
-
+public class LoginTest extends TestBase{
+        WebDriver driver;
 
         @Test
         public void test1(){
-            driver.get(ConfigurationReader.get("qa1_url"));
+            driver = Driver.get();
+            driver.get(ConfigurationReader.get("url"));
             String username=ConfigurationReader.get("driver_username");
             String password=ConfigurationReader.get("driver_password");
             driver.findElement(By.xpath("//input[@id='prependedInput']")).sendKeys(username+Keys.TAB);

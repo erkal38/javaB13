@@ -7,6 +7,9 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import java.net.HttpURLConnection;
+import java.util.Iterator;
+import java.util.List;
 
 public class iframes {
     WebDriver driver;
@@ -41,6 +44,10 @@ public class iframes {
         Thread.sleep(2000);
         driver.findElement(By.id("tinymce")).clear();
         driver.findElement(By.id("tinymce")).sendKeys("mike smith with webelement");
+//        List<WebElement> elements = driver.findElements(By.tagName("a"));
+//        Iterator<WebElement> iterator = elements.iterator();
+//        iterator.next().getAttribute("href")
+
     }
     @Test
     public void test2(){

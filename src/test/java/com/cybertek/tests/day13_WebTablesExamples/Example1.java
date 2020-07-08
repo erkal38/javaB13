@@ -120,7 +120,7 @@ public class Example1 {
                 WebElement element1 = driver.findElement(By.xpath("//table[@id='table1']/tbody/tr[" + i + "]/td[" + j + "]"));
                 String element1Text = element1.getText();
                 String element2Text = element2.getText();
-                System.out.printf("%-1S :%s\n",element2Text, element1Text);
+                System.out.printf("%1S :%s\n",element2Text, element1Text);
             }
             System.out.println("----------------------");
         }
@@ -130,7 +130,14 @@ public class Example1 {
         WebElement element = driver.findElement(By.xpath("//table[@id='table1']/tbody/tr["+a+"]/td["+b+"]"));
         return element.getText();
     }
+     @Test
+    public void testSpecific(){
+        String str="John";
+        String xpath="//table[@id='table1']//td[.='"+str+"']/../td[3]";
+         WebElement element = driver.findElement(By.xpath(xpath));
+         System.out.println(element.getText());
 
+     }
 
 
 }
