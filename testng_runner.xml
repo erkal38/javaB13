@@ -1,15 +1,13 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Vytrack Automation Test" verbose="5">
-    <test name="Vytrack Smoke Test">
-       <classes>
-           <class name="com.cybertek.tests.day16_pom.NegativeLoginTest">
-               <methods>
-                   <exclude name="wrongPasswordTest">
-                   </exclude>
-               </methods>
-           </class>
-       </classes>
-    </test>
+<suite name="Vytrack Automation" verbose="1">
+  <test name="Vytrack Smoke Test">
+      <packages>
+          <package name="com.cybertek.tests.day17_extent_reports"></package>
+          <package name="com.cybertek.tests.day15_StaleTest"></package>
+      </packages>
+  </test>
 </suite>
+
+
 
 

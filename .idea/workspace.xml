@@ -2,27 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b369c81-250c-40fd-9c61-441b03b6623b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/testng_runner_class.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/DashboardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smoke_test_runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/smoke_test_runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/ContactsInfoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/ContactsInfoPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/ContactsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/ContactsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day12_actions_jsexecuter/JavaScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day12_actions_jsexecuter/JavaScript.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day13_WebTablesExamples/Example1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day13_WebTablesExamples/Example1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_Properties/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_Properties/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_Properties/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_Properties/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day16_pom/PageSubtitleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day16_pom/PageSubtitleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day16_pom/RepeatOptionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day16_pom/RepeatOptionsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day9_popups_tabs_frames/iframes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day9_popups_tabs_frames/iframes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/pages/DashboardPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/pages/DashboardPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day17_extent_reports/ExtentDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day17_extent_reports/ExtentDemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day17_extent_reports/NegativeLoginTestWithReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day17_extent_reports/NegativeLoginTestWithReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day18_review/verifyContactInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day18_review/verifyContactInfoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day19_ddf/DDFLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day19_ddf/DDFLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day19_ddf/DDFWithDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day19_ddf/DDFWithDataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day19_ddf/ExcelUtilsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day19_ddf/ExcelUtilsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/pages/ContactsInfoPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/pages/ContactsInfoPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/pages/ContactsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/pages/ContactsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/Homework/DataProviderProject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/Homework/DataProviderProject.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day12_actions_jsexecuter/JavaScript.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day12_actions_jsexecuter/JavaScript.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day13_WebTablesExamples/Example1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day13_WebTablesExamples/Example1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day14_Properties/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day14_Properties/LoginTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day14_Properties/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day14_Properties/Singleton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day16_pom/PageSubtitleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day16_pom/PageSubtitleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day16_pom/RepeatOptionsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day16_pom/RepeatOptionsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day9_popups_tabs_frames/iframes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day9_popups_tabs_frames/iframes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day17_extent_reports/ExtentDemoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day17_extent_reports/ExtentDemoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day17_extent_reports/NegativeLoginTestWithReport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day17_extent_reports/NegativeLoginTestWithReport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day18_review/verifyContactInfoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day18_review/verifyContactInfoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day19_ddf/DDFLoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day19_ddf/DDFLoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/contactDetailsTest20200524123910.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/contactDetailsTest20200526043415.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/loginTestDDF20200529073536.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/loginTestDDF20200529073823.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/loginTestDDF20200529074248.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/loginTestDDF20200529074304.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/loginTestDDF20200529074330.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/loginTestDDF20200529074356.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/loginTestDDF20200529074541.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/loginTestDDF20200529074559.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/loginTestDDF20200529075334.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/loginTestDDF20200529075348.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/loginTestDDF20200529075405.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/loginTestDDF20200529075644.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/loginTestWithDataP20200530024613.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/loginTestWithDataP20200530024653.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/testVehicleCost20200601051010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/testVehicleCost20200601052114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/testVehicleCost20200601052313.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/testVehicleCost20200601052723.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/testVehicleCost20200601053920.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/testVehicleCost20200601054127.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/testVehicleCost20200601062336.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/wrongPasswordTest20200523020719.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/wrongPasswordTest20200523051007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/wrongPasswordTest20200527045048.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/wrongPasswordTest20200527045522.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/wrongPasswordTest20200527050211.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/wrongPasswordTest20200627041626.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/wrongUserTest20200527045059.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/wrongUserTest20200527045534.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/wrongUserTest20200527050222.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng_runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng_runner.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,90 +124,79 @@
       <recent name="C:\Users\Ergün\IdeaProjects\EU2TestNGProject\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RepeatOptionsTest.test2">
-    <configuration name="Example1.getASingleCell" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.DDFLoginTest">
+    <configuration name="C:/Users/Ergün/IdeaProjects/EU2TestNGProject/smoke_test_runner_multi_env.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU2TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day13_WebTablesExamples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_WebTablesExamples" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_WebTablesExamples.Example1" />
-      <option name="METHOD_NAME" value="getASingleCell" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/smoke_test_runner_multi_env.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example1.getAllCell" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DDFLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU2TestNGProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day13_WebTablesExamples.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day19_ddf.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_WebTablesExamples" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_WebTablesExamples.Example1" />
-      <option name="METHOD_NAME" value="getAllCell" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day19_ddf" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day19_ddf.DDFLoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example1.getRowColumnCell" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DDFWithDataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU2TestNGProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day13_WebTablesExamples.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day19_ddf.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_WebTablesExamples" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_WebTablesExamples.Example1" />
-      <option name="METHOD_NAME" value="getRowColumnCell" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day19_ddf" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day19_ddf.DDFWithDataProvider" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExplicitWaitExample.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ExcelUtilsDemo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU2TestNGProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day10_sync.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day19_ddf.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day10_sync" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day10_sync.ExplicitWaitExample" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day19_ddf" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day19_ddf.ExcelUtilsDemo" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepeatOptionsTest.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ExcelUtilsDemo.readExcelFile" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU2TestNGProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day16_pom.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day19_ddf.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day16_pom" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day16_pom.RepeatOptionsTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day19_ddf" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day19_ddf.ExcelUtilsDemo" />
+      <option name="METHOD_NAME" value="readExcelFile" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -182,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.RepeatOptionsTest.test2" />
-        <item itemvalue="TestNG.ExplicitWaitExample.test1" />
-        <item itemvalue="TestNG.Example1.getRowColumnCell" />
-        <item itemvalue="TestNG.Example1.getAllCell" />
-        <item itemvalue="TestNG.Example1.getASingleCell" />
+        <item itemvalue="TestNG.DDFLoginTest" />
+        <item itemvalue="TestNG.DDFWithDataProvider" />
+        <item itemvalue="TestNG.ExcelUtilsDemo.readExcelFile" />
+        <item itemvalue="TestNG.ExcelUtilsDemo" />
+        <item itemvalue="TestNG.C:/Users/Ergün/IdeaProjects/EU2TestNGProject/smoke_test_runner_multi_env.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -321,33 +345,33 @@
     </state>
     <state x="497" y="243" key="Github.CreatePullRequestDialog/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1590863332338" />
     <state x="497" y="243" key="Github.CreatePullRequestDialog/0.0.1366.728@0.0.1366.728" timestamp="1593607168427" />
-    <state width="1322" height="236" key="GridCell.Tab.0.bottom" timestamp="1594170421269">
+    <state width="1322" height="337" key="GridCell.Tab.0.bottom" timestamp="1594399080198">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="314" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591016776587" />
     <state width="1322" height="277" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1593520592262" />
-    <state width="1322" height="236" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1594170421269" />
+    <state width="1322" height="337" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1594399080198" />
     <state width="1322" height="307" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593613190090" />
-    <state width="1322" height="236" key="GridCell.Tab.0.center" timestamp="1594170421269">
+    <state width="1322" height="337" key="GridCell.Tab.0.center" timestamp="1594399080198">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="314" key="GridCell.Tab.0.center/0.0.1366.728/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591016776587" />
     <state width="1322" height="277" key="GridCell.Tab.0.center/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1593520592262" />
-    <state width="1322" height="236" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1594170421269" />
+    <state width="1322" height="337" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1594399080198" />
     <state width="1322" height="307" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593613190090" />
-    <state width="1322" height="236" key="GridCell.Tab.0.left" timestamp="1594170421269">
+    <state width="1322" height="337" key="GridCell.Tab.0.left" timestamp="1594399080198">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="314" key="GridCell.Tab.0.left/0.0.1366.728/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591016776586" />
     <state width="1322" height="277" key="GridCell.Tab.0.left/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1593520592262" />
-    <state width="1322" height="236" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1594170421269" />
+    <state width="1322" height="337" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1594399080198" />
     <state width="1322" height="307" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593613190090" />
-    <state width="1322" height="236" key="GridCell.Tab.0.right" timestamp="1594170421269">
+    <state width="1322" height="337" key="GridCell.Tab.0.right" timestamp="1594399080198">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="314" key="GridCell.Tab.0.right/0.0.1366.728/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591016776587" />
     <state width="1322" height="277" key="GridCell.Tab.0.right/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1593520592262" />
-    <state width="1322" height="236" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1594170421269" />
+    <state width="1322" height="337" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1594399080198" />
     <state width="1322" height="307" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593613190090" />
     <state x="0" y="0" key="SettingsEditor" timestamp="1590499812028">
       <screen x="0" y="0" width="1366" height="728" />
@@ -358,11 +382,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="242" height="198" key="ShowFilterAction_Filter_Popup/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1587984326404" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1593642339752">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1594170557536">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1590863318966" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1593642339752" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1594170557536" />
     <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1593607132903" />
     <state x="13" y="112" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1590849055786">
       <screen x="0" y="0" width="1366" height="728" />
@@ -384,19 +408,21 @@
     </state>
     <state x="-1235" y="0" key="new project wizard/0.0.1366.728/-1366.0.1366.728@-1366.0.1366.728" timestamp="1590340249474" />
     <state x="131" y="0" key="new project wizard/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1590938864314" />
-    <state x="391" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1590595731740">
+    <state x="391" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1594393013378">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="391" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1590595731740" />
-    <state x="6" y="158" key="run.anything.popup" timestamp="1589937800049">
+    <state x="391" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1594393013378" />
+    <state x="6" y="158" key="run.anything.popup" timestamp="1594332680345">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="6" y="158" key="run.anything.popup/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1589937800049" />
-    <state x="6" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1593703182619">
+    <state x="6" y="158" key="run.anything.popup/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1594332680345" />
+    <state x="6" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1594390482329">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-1360" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1366.0.1366.728@-1366.0.1366.728" timestamp="1593105154590" />
     <state x="6" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1593105415535" />
-    <state x="6" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1593703182619" />
+    <state x="6" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1594390482329" />
   </component>
 </project>

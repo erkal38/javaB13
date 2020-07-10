@@ -20,9 +20,9 @@ public class TestBase extends BasePage {
    protected WebDriver driver;
    protected Actions actions;
    protected WebDriverWait wait;
-    protected ExtentReports report;
-    protected ExtentHtmlReporter htmlReporter;
-    protected ExtentTest extentLogger;
+    protected static ExtentReports report;
+    protected static ExtentHtmlReporter htmlReporter;
+    protected static ExtentTest extentLogger;
     protected String url;
 
    @BeforeTest
@@ -40,25 +40,37 @@ public class TestBase extends BasePage {
    }
 
     @BeforeMethod
-    public void setupMethod() {
+    @Parameters("env")
+    public void setupMethod(@Optional String env) {
+        System.out.println("env: "+ env);
+        if(env==null){
+            url=ConfigurationReader.get("url");
+        }else {
+            url=ConfigurationReader.get(env+"_url");
+        }
         driver = Driver.get();
-        driver.get(ConfigurationReader.get("url"));
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         actions=new Actions(driver);
         wait=new WebDriverWait(driver,10);
+        driver.get(url);
 
     }
-
+     //ITestResult class describes the result of a test in TestNG
     @AfterMethod
     public void afterMethod(ITestResult result) throws InterruptedException, IOException {
-       if(result.getStatus()==ITestResult.FAILURE){
-           extentLogger.fail(result.getName());
-           String screenshot = BrowserUtils.getScreenshot(result.getName());
-           extentLogger.addScreenCaptureFromPath(screenshot);
-           extentLogger.fail(result.getThrowable());
-       }
+       //if test failed
+      if(result.getStatus()==ITestResult.FAILURE){
+          //record the name to failed test case
+          extentLogger.fail(result.getName());
+          //take the screenshot and return location of screenshot
+          String screenShotPath = BrowserUtils.getScreenshot(result.getName());
+          //add your screenshot to your report
+          extentLogger.addScreenCaptureFromPath(screenShotPath);
+          extentLogger.fail(result.getThrowable());
 
+
+      }
         Thread.sleep(3000);
         Driver.closeDriver();
     }

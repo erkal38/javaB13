@@ -23,7 +23,9 @@ public class DDFLoginTest extends TestBase {
         extentLogger=report.createTest("Test"+firstname+" "+lastname);
         LoginPage loginPage=new LoginPage();
         loginPage.login(username,password);
-        BrowserUtils.waitFor(3);
+        new DashboardPage().waitUntilLoaderScreenDisappear();
+        extentLogger.info("Username= "+username);
+        extentLogger.info("password"+password);
         String actualFullname = new DashboardPage().getUserName();
         String expectedFullname=firstname+" "+lastname;
         Assert.assertEquals(actualFullname,expectedFullname);

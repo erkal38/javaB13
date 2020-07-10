@@ -2,49 +2,34 @@ package com.cybertek.tests.day17_extent_reports;
 
 import com.cybertek.pages.LoginPage;
 import com.cybertek.tests.TestBase;
+import com.cybertek.utilities.ConfigurationReader;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
 public class NegativeLoginTestWithReport extends TestBase {
     @Test
-    public void wrongPasswordTest() {
-        extentLogger=report.createTest("Wrong Password Test");
-        LoginPage element = new LoginPage();
-
-        element.usernameInput.sendKeys("user1");
-        extentLogger.info("Enter Username: user1");
-
-        element.passwordInput.sendKeys("somepassword");
-        extentLogger.info("Enter Password: somepassword");
-
-        element.loginBtn.click();
-        extentLogger.info("Click login button");
-
-        extentLogger.info("Verify page url");
-        Assert.assertEquals(driver.getCurrentUrl(), "https://qa3.vytrack.com/user/login");
-
-        extentLogger.pass("Wrong Password is passed");
+    public void test1() {
+        extentLogger=report.createTest("Url test step");
+        LoginPage loginPage = new LoginPage();
+        extentLogger.info("Enter Valid Credentials");
+        loginPage.loginAsDriver();
+        Assert.assertEquals(driver.getCurrentUrl(), ConfigurationReader.get(url));
+        extentLogger.pass("verify is OK");
 
     }
-
     @Test
-    public void wrongUserTest() {
-        extentLogger=report.createTest("Wrong Username Test");
-        LoginPage element = new LoginPage();
+    public void wrongUsernameTest(){
+        extentLogger=report.createTest("wrong password test");
+        LoginPage loginPage=new LoginPage();
+        extentLogger.info("Enter username:User1");
+        loginPage.usernameInput.sendKeys("someusername");
+        extentLogger.info("Enter Password:somepassword");
+        loginPage.passwordInput.sendKeys("UserUser123");
+        extentLogger.info("click login button");
+        loginPage.loginBtn.click();
+        Assert.assertEquals(driver.getCurrentUrl(),ConfigurationReader.get(url));
+        extentLogger.pass("Wrong password Test is passed");
 
-        element.usernameInput.sendKeys("someusername");
-        extentLogger.info("Enter username: someusername");
-
-        element.passwordInput.sendKeys("UserUser123");
-        extentLogger.info("Enter password: UserUser123");
-
-        element.loginBtn.click();
-        extentLogger.info("login click button");
-
-        extentLogger.info("Verify page url");
-        Assert.assertEquals(driver.getCurrentUrl(), "https://qa3.vytrack.com/user/login");
-
-        extentLogger.pass("Pass: Wrong password Test");
     }
 }

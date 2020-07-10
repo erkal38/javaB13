@@ -8,38 +8,49 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class ExtentDemoTest {
+    //this class is used for starting and building reports
     ExtentReports report;
+    //this class is used to create HTML report file
     ExtentHtmlReporter htmlReporter;
+    //this will define a test, enables adding logs,authors,test steps
     ExtentTest extentLogger;
-
     @BeforeMethod
-    public void setUp(){
+    public void setup(){
         report=new ExtentReports();
+        //create a report path
         String projectPath = System.getProperty("user.dir");
-        String path=projectPath+"/test-output/report.html";
+        String path = projectPath + "/test-output/report.html";
+        //initialize the html reporter with the report path
         htmlReporter=new ExtentHtmlReporter(path);
+        //attach the html report to report object
         report.attachReporter(htmlReporter);
-        htmlReporter.config().setReportName("Vytrack Smoke Test");
+        //title in report
+        htmlReporter.config().setReportName("Vytrack smoke test");
+        //set enviroment info
         report.setSystemInfo("Environment","QA");
-        report.setSystemInfo("Browser","Chrome");
+        report.setSystemInfo("Browse","Chrome");
         report.setSystemInfo("Tester","Cybertek Testers");
 
 
-
     }
-   @Test
-    public void test1(){
-        extentLogger=report.createTest("TC123 login as Driver Test");
-
+    @Test
+     public void test1(){
+        //give name to current test
+        extentLogger=report.createTest("TC123 Login as Driver TEst");
+        //test steps
+        //info()-->wirte test steps
         extentLogger.info("Open Chrome");
         extentLogger.info("go to url");
         extentLogger.info("enter driver username and password");
         extentLogger.info("click submit");
         extentLogger.info("verify logged in");
         extentLogger.pass("TC123 is passed");
-   }
-     @AfterMethod
-    public void tearDown(){
+    }
+    @AfterMethod
+    public void teardown(){
+        //this is when the report is actually created
         report.flush();
-     }
+
+    }
+
 }
